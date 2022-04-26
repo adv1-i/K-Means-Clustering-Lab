@@ -166,7 +166,6 @@ public class KmeansLab extends Application {
                 for (Cluster c : clusters) {
                     Label label = new Label();
                     label.setPadding(new Insets(10,12,10,12));
-                    // Установка цвета метки
                     label.setBackground(new Background(new BackgroundFill(
                             Color.rgb(c.red, c.green, c.blue),
                             CornerRadii.EMPTY,
